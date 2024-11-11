@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="imagex/png" href="assets/aviao_png.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login2.css">
+    <title>Login</title>
+
+    <script LANGUAGE="JavaScript"> 
+
+        function Login() {
+                    
+            var user=document.frm_login.txt_usuario.value;
+            var email=document.frm_login.txt_usuario.value;
+            var pass=document.frm_login.txt_senha.value;
+        
+            if ((user=="fatec" || email=="fatec@fatec") && pass=="123a") {
+               alert("Conta Validada com Sucesso!!!");
+               window.location="http://www.uol.com.br"; 
+                }
+            else {
+               alert("Conta Inválida!!!");
+               document.frm_login.txt_usuario.value="";
+               document.frm_login.txt_senha.value="";
+               document.frm_login.txt_usuario.focus();	
+                }
+            }
+        
+        
+                function Limpar() {
+                    document.frm_login.txt_usuario.value="";
+                    document.frm_login.txt_senha.value="";
+                    document.frm_login.txt_usuario.focus();	
+                }
+        </script>
+
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img src="assets/aviao_png.png" alt=""></a>    
+        <ul class="navegacao">
+            <li>
+                <a href="index.html" class="link_navegacao">Home</a>
+            </li>
+            <li>
+                <a href="#" class="link_navegacao">Destinos</a>
+            </li>
+            <li>
+                <a href="#" class="link_navegacao">Sobre Nós</a>
+            </li>
+        </ul>
+        <div id="login_btn" class="login_navegacao">
+            <a href="login2.html"><img src="assets/usuario_png.png"></a>            
+        </div>
+    </header>
+
+    <section class="bg_header">
+        <div >
+            <img src="assets/aviao_bg_login.jpg" alt="">
+        <div>
+    </section>
+
+    <section>
+        <div class="direito">
+            <img src="assets/escudo.png" alt="">
+        </div>
+    </section>
+
+    <section id="section_login">
+        <div id="container">
+            <form name="frm_login" class="form">
+                <p>
+                    <h2>Faça seu login</h2>
+                            <h3> Usuário ou E-mail:<br>
+                                <input type="text" name="txt_usuario" id="caixa" size="40" maxlength="40" required><p>
+                                Senha:<br>
+                                <input type="password" name="txt_senha" id="caixa" size="40" maxlength="15" required><p>
+                                <input type="button" name="btn_login" id="botao" value="Entrar" onClick="Login()">&nbsp;&nbsp;
+                                <input type="button" name="btn_limpar" id="botao" value="Limpar" onClick="Limpar()">
+                <p>
+            </form>
+
+            <div class="marca">
+                <img src="assets/aviao_png.png" alt="">
+                <p>FlyAway</p>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
