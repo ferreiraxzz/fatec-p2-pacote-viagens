@@ -1,0 +1,59 @@
+@import url(header.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --text: #edf1f7;
+    --red: #c51212;
+    --blue: #0041c2;
+    --green: #14b02d;
+    --yellow: #ffc12b;
+    --purple: #ae1ff0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:  #ca9de6;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#section {
+    background-color:  #ca9de6;
+    height: 20px;
+}
+
+.sucesso img {
+    width: 200px;
+    margin: 100px 0px 10px 565px;
+}
+
+.sucesso p{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #ae1ff0;
+    font-weight: 600;
+    margin-left: 555px;
+    margin-bottom: 10px ;
+}
+
+.sucesso h3{
+    font-family: sans-serif;
+    color: #ae1ff0;
+    font-weight: 600;
+    margin-left: 545px;    
+}
