@@ -1,10 +1,10 @@
-@import url(header.css);
+@import url(/v2/header.css);
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -21,7 +21,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color:  #ca9de6;
+    background-color:  #fafafa;
 }
 
 a {
@@ -33,7 +33,7 @@ button:hover {
 }
 
 #section {
-    background-color:  #ca9de6;
+    background-color:  #fafafa;
     height: 20px;
 }
 
@@ -44,16 +44,12 @@ button:hover {
 
 .sucesso p{
     font-size: 50px;
-    font-family: sans-serif;
-    color: #ae1ff0;
     font-weight: 600;
     margin-left: 555px;
     margin-bottom: 10px ;
 }
 
 .sucesso h3{
-    font-family: sans-serif;
-    color: #ae1ff0;
     font-weight: 600;
-    margin-left: 545px;    
+    margin-left: 538px;    
 }

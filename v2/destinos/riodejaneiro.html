@@ -3,27 +3,19 @@
 <head>
     <link rel="stylesheet" href="pag_destino.css">
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="imagex/png" href="assets/aviao_png.png    ">
+    <link rel="shortcut icon" type="imagex/png" href="/assets/aviao_png.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viagens para Rio de Janeiro</title>
+    <title>Flyway - Viagens para Rio de Janeiro</title>
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="assets/aviao_png.png" alt=""></a>    
-        <ul class="navegacao">
-            <li>
-                <a href="index.html" class="link_navegacao">Home</a>
-            </li>
-            <li>
-                <a href="index.html" class="link_navegacao">Destinos</a>
-            </li>
-            <li>
-                <a href="index.html" class="link_navegacao">Sobre Nós</a>
-            </li>
-        </ul>
-        <div id="login_btn" class="login_navegacao">
-            <a href="login2.html"><img src="assets/usuario_png.png"></a>            
-        </div>
+        <a href="/v2/index/index.html" class="logo">Flyway.com</a>
+        <nav class="navbar">
+            <a href="/v2/index/index.html">Home</a>
+            <a href="/v2/index/index.html">Destinos</a>
+            <a href="#">Sobre</a>
+            <a href="/v2/login/login.html">Login</a>
+        </nav>
     </header> 
     
     <section>
@@ -49,7 +41,7 @@
 
     </section>
 
-    <section id="informations">
+    <section id="informations" style="height: 640px;">
         <div class="informations_hotel">
             <h2>O que o resort oferece?</h2>
             <p>
@@ -61,11 +53,29 @@
             </p>
         </div>
 
-        <div class="prices">
-            <span class="price">R$ 1.200</span>
-            <p>Por pessoa</p>
-            <button><a href="cadastro.html">Reservar</a></button>
+        <div class="price_map">
+
+            <div class="prices">
+                <p style="font-size: 15px;">Por pessoa</p>
+                <span class="price">R$ 1.200</span>
+                <p>Em até 8x sem juros</p>         
+                <p style="font-size: 15px;">8x de R$150,00</p>
+                <button><a href="/v2/checkout/checkout.html">Reservar</a></button>
+            </div>
+
+            <div class="location">
+                <img src="/v2/destinos/assets/mapa.jpg" alt="">
+                <div class="location_info">
+                    <h2>Av. Tom Jobim, 80</h2>
+                    <p>Pelourinho</p>
+                    <p>Rio de janeiro - RJ</p>
+                </div>
+                <div class="location_button">
+                    <a href="https://www.google.com/maps/place/Rio+de+Janeiro,+RJ/@-22.9137892,-43.7763437,10z/data=!3m1!4b1!4m6!3m5!1s0x9bde559108a05b:0x50dc426c672fd24e!8m2!3d-22.9068467!4d-43.1728965!16zL20vMDZnbXI?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D"><button>Ver no mapa</button></a>
+                </div>
+            </div>
         </div>
+
     </section>
 
 </body>

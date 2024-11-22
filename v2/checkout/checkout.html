@@ -2,46 +2,28 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="imagex/png" href="assets/aviao_png.png    ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cad_estilo.css">
-    <title>Cadastro</title>
+    <link rel="shortcut icon" type="imagex/png" href="/assets/aviao_png.png">
+    <link rel="stylesheet" href="/v2/checkout/checkout_estilo.css">
+    <title>Flyway - Checkout</title>
 </head>
 
 <body>
 
     <header>
-        <a href="index.html"><img src="assets/aviao_png.png" alt=""></a>    
-        <ul class="navegacao">
-            <li>
-                <a href="index.html" class="link_navegacao">Home</a>
-            </li>
-            <li>
-                <a href="index.html" class="link_navegacao">Destinos</a>
-            </li>
-            <li>
-                <a href="index.html" class="link_navegacao">Sobre Nós</a>
-            </li>
-        </ul>
-        <div class="config">
-            <p>Escolha seu destino:</p>
-            <select name="type" id="type">
-                <option value="SP" onClick="">São Paulo</option>
-                <option value="Recife" onClick="">Recife</option>
-                <option value="Salvador" onClick="">Salvador</option>
-                <option value="RJ" onClick="">Rio de Janeiro</option>
-            </select>
-        </div>
-
-        <div id="login_btn" class="login_navegacao">
-            <a href="login2.html"><img src="assets/usuario_png.png"></a>            
-        </div>
-    </header>
+        <a href="/v2/index/index.html" class="logo">Flyway.com</a>
+        <nav class="navbar">
+            <a href="/v2/index/index.html">Home</a>
+            <a href="/v2/index/index.html">Destinos</a>
+            <a href="#">Sobre</a>
+            <a href="/v2/login/login.html">Login</a>
+        </nav>
+    </header> 
  
     <div class="container">
 
         <div class="imagem_ref">
-            <img src="assets/viagem.jpg" alt="">
+            <img src="/v2/checkout/assets/viagem.jpg" alt="">
         </div>
 
         <div class="form">
@@ -183,11 +165,10 @@
                                                                 
                         <div class="text_card">
                             <p>
-                                O comprovante de pagamento será <br>
-                                enviado no email cadastrado anteriormente.
+                                O comprovante de pagamento será <br> enviado 
+                                no email cadastrado anteriormente.
                             </p>
 
-                            <img src="assets/comprovante.png" alt="">
                         </div>
 
                     </div>           
