@@ -21,9 +21,17 @@ header {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     font-size: 28px;
     font-weight: 700;
     color: white;
+}
+
+.logo-img {
+    height: 48px; 
+    margin-top: 4px;
+    margin-right: 8px; 
 }
 
 .navbar a {
