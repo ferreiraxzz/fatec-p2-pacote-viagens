@@ -18,38 +18,37 @@
 
 body{
     width: 100%;
-    height: 100vh;
-    justify-content: center;
+    height: calc(100vh - 9vh);
+    background-color:  #fafafa;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    background-color:  #fafafa;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color:  #fafafa;
+    justify-content: center;
+    gap: 1rem;
 }
 
-a {
-    text-decoration: none;
+section img {
+    width: 15%;
 }
 
-button:hover {
-    cursor: pointer;
+.text {
+    text-align: center;
+    gap: 12px;
 }
 
-#section {
-    background-color:  #fafafa;
-    height: 20px;
-}
-
-.sucesso img {
-    width: 200px;
-    margin: 100px 0px 10px 565px;
-}
-
-.sucesso p{
-    font-size: 50px;
+.text p {
+    font-size: 20px;
     font-weight: 600;
-    margin-left: 555px;
-    margin-bottom: 10px ;
 }
 
-.sucesso h3{
-    font-weight: 600;
-    margin-left: 538px;    
+.text h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #4e1472;
 }

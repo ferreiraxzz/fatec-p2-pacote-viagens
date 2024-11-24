@@ -110,7 +110,8 @@ button:hover {
     border: none;
     border-radius: 10px;
     box-shadow: 2px 2px 6px #e0bff5;
-    background-color:#f4ebfa ;
+    background-color:#f4ebfa;
+    padding: 12px;
 }
 
 .input_box input:hover{
@@ -123,7 +124,7 @@ button:hover {
 
 .input_box input::placeholder{
     color: #000000c0; 
-    padding-left: 10px;      
+    position: relative;   
 }
 
 .input_box label, .genero_titulo h6, .select_box label{
@@ -150,6 +151,7 @@ button:hover {
     border-radius: 10px;
     box-shadow: 2px 2px 6px  #e0bff5;
     background-color:#f4ebfa ;
+    padding: 0 10px; 
 }
 
 .input_box select:hover{
@@ -303,6 +305,7 @@ button:hover {
     border-radius: 10px;
     box-shadow: 2px 2px 6px #e0bff5;
     background-color:#f4ebfa ;
+    padding: 0 10px; 
 }
 
 .input_box select:hover{
